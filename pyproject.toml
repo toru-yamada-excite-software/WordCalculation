@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "WordCalcul"
+version = "0.1.0"
+description = ""
+authors = ["toru.yamada@excite-software.co.jp"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+openai = "^0.27.8"
+jsonschema = "^4.18.0"
+streamlit = "^1.26.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
